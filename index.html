@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chitetezo ku Mchinji</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f1f5f9;color:#172033}
+header{background:#075e35;color:white;text-align:center;padding:24px 12px}
+main{max-width:600px;margin:auto;padding:16px}
+.card{background:white;padding:18px;margin-bottom:16px;border-radius:12px}
+button{background:#087443;color:white;border:0;border-radius:8px;padding:14px;width:100%;font-size:16px;margin-top:10px}
+.red{background:#b91c1c}
+input,textarea,select{width:100%;box-sizing:border-box;padding:12px;margin:8px 0;border:1px solid #ccc;border-radius:7px;font-size:16px}
+</style>
+</head>
+<body>
+<header>
+<h1>🇲🇼 Chitetezo ku Mchinji</h1>
+<p>Community Security and Safety</p>
+</header>
+<main>
+<section class="card">
+<h2>Welcome</h2>
+<p>Working together for safer communities in Mchinji.</p>
+<button class="red" onclick="alert('In an emergency, contact your local police station. Confirm official emergency numbers before relying on them.')">Emergency Contacts</button>
+</section>
+<section class="card">
+<h2>📝 Report an Incident</h2>
+<p>This is a demonstration. Reports are saved only in this browser and are NOT sent to police.</p>
+<form id="report">
+<label>Incident type</label>
+<select id="type" required>
+<option value="">Choose incident type</option>
+<option>Theft</option>
+<option>Violence</option>
+<option>Drug and substance abuse</option>
+<option>Child protection concern</option>
+<option>Road safety</option>
+<option>Other security concern</option>
+</select>
+<label>Description</label>
+<textarea id="description" rows="4" required placeholder="Describe what happened"></textarea>
+<label>
